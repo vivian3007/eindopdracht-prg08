@@ -1,0 +1,67 @@
+<!--<head>-->
+<!--    <meta charset="utf-8" />-->
+<!--    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0, user-scalable=no" />-->
+
+<!--    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>-->
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>-->
+<!--    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>-->
+<!--    <script src="knear.js"></script>-->
+<!--    <script src="https://unpkg.com/@tensorflow-models/handpose@0.0.6/dist/handpose.js"></script>-->
+<!--    <script type="module" defer src="index.js"></script>-->
+<!--    <link rel="stylesheet" href="style.css">-->
+<!--</head>-->
+
+<!--<body>-->
+<!--<h1>Gebarentaal Vingerspel training</h1>-->
+<!--<div id="container">-->
+<!--    <canvas id="output" ></canvas>-->
+<!--    <video id="video" playsinline ></video>-->
+<!--</div>-->
+
+
+<!--<div id="array">Letter</div>-->
+<!--</body>-->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+    <!--    &lt;!&ndash; Load three.js &ndash;&gt;-->
+    <!--    <script defer src="https://unpkg.com/@tensorflow/tfjs-core@2.1.0/dist/tf-core.js"></script>-->
+    <!--    <script defer src="https://unpkg.com/@tensorflow/tfjs-converter@2.1.0/dist/tf-converter.js"></script>-->
+
+    <!--    &lt;!&ndash; GPU backend &ndash;&gt;-->
+    <!--    <script defer src="https://unpkg.com/@tensorflow/tfjs-backend-webgl@2.1.0/dist/tf-backend-webgl.js"></script>-->
+    <!--    &lt;!&ndash; CPU backend &ndash;&gt;-->
+    <!--    &lt;!&ndash; <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-cpu"></script> &ndash;&gt;-->
+    <!--    &lt;!&ndash; WASM backend &ndash;&gt;-->
+    <!--    &lt;!&ndash; <script src="https://unpkg.com/@tensorflow/tfjs-backend-wasm@2.1.0/dist/tf-backend-wasm.js"></script> &ndash;&gt;-->
+
+    <script src="https://unpkg.com/@tensorflow-models/handpose@0.0.6/dist/handpose.js"></script>
+    <script defer src="app.js"></script>
+    <script src="knear.js"></script>
+</head>
+
+<body>
+<h1>HANDPOSE API met landmarks</h1>
+<div id="container">
+    <canvas id="output" ></canvas>
+    <video id="video" playsinline ></video>
+</div>
+<h2>Landmarks array</h2>
+<div id="array">bla</div>
+<button id="one">One</button>
+<button id="two">Two</button>
+<button id="three">Three</button>
+<button id="four">Four</button>
+<button id="five">Five</button>
+</body>
+</html>
